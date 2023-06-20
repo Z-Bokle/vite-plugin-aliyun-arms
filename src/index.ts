@@ -11,15 +11,9 @@ export interface AliyunARMSPluginOptions {
   /**
    * 插件启动的场景
    * 
-   * 未填写或undefined则所有场景都启用
-   * 
-   * @example 'build' 仅在Vite构建模式下使用
-   * 
-   * @default undefined
-   * 
    * @see https://cn.vitejs.dev/guide/api-plugin.html#conditional-application
    */
-  apply?: 'build' | 'serve'
+  apply?: Plugin['apply']
   /**
    * 加载方式
    * 
