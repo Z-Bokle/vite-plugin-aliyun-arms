@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "baseUrl": ".",
+    "sourceMap": false,
+    "target": "es2017",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "downlevelIteration": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "typings/**/*"
+  ],
+  "exclude": [
+    "**/__tests__/*"
+  ]
+}

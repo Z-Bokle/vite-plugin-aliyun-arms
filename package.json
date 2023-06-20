@@ -1,0 +1,20 @@
+{
+  "name": "vite-plugin-aliyun-arms",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup-node src/index.ts --dts --format esm,cjs --clean"
+  },
+  "keywords": [
+    "vite",
+    "plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
+  }
+}
