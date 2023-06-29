@@ -14,7 +14,7 @@ pnpm build
 ```
 
 ## 引入
-讲dist目录的产物移动到要接入的项目中，如放在`plugin`目录下
+将dist目录的产物移动到要接入的项目中，如放在`plugin`目录下
 
 ```ts
 // vite.config.ts
