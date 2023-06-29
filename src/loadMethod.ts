@@ -1,6 +1,6 @@
 import { HtmlTagDescriptor } from "vite";
 
-export function asyncLoader(configs: any): HtmlTagDescriptor[] {
+export function asyncLoader(configs: Record<string, any>): HtmlTagDescriptor[] {
   return [
     {
       tag: 'script',
@@ -16,7 +16,7 @@ export function asyncLoader(configs: any): HtmlTagDescriptor[] {
   ]
 }
 
-export function syncLoader(configs: any): HtmlTagDescriptor[] {
+export function syncLoader(configs: Record<string, any>): HtmlTagDescriptor[] {
   return [
     {
       tag: 'script',

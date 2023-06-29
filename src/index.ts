@@ -27,7 +27,7 @@ export interface AliyunARMSPluginOptions {
    * 
    * @see https://help.aliyun.com/document_detail/58655.htm
    */
-  configs: any
+  configs: Record<string, any>
 
 }
 
